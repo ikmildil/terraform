@@ -1,6 +1,5 @@
 # Terraform
-Mix bag of terraform and public web
+### Welcome
+##### This Repo will include some of projects regarding Terraform
 
-Welcome To My Hub
-
-Have Fun.
+Thanks for checking them out.
