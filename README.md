@@ -2,6 +2,13 @@
 
 I will be using AWS for this lab. The AWS Region will be Ireland and EC2 instances are of type t2.micro. It should either cost nothing or very minimum depending  on Free Tier. This website consist of a  load balancer with two instances, the number of instances can be increased if desired to do so. I am using Terraform’s Local back-end with verifications of AWS done through environmental variable in my windows machine.
 
+It is recommended that you create a separate directory for this project and place both files, `main.tf` and `bash-for-web.sh`, in it. Both of these files are in directory called `dubdub` in this repo. You will need to modify the Terraform file to include AWS configurations such as region, security group, and the type of instance you intend to use.
+
+### Prerequisites: 
+- Familiarity with AWS and an active AWS account, AWS credentials configured on your host machine. 
+- Terraform installed. A foundational understanding of Terraform is recommended.
+
+_When inside your project directory, you can begin running the following command._
 
 To format our code, validate our syntax and see our plan.
 
